@@ -28,6 +28,6 @@ RUN echo "vscode ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/vscode \
     && chown -R vscode:vscode /workspaces
 
 # Python alias
-RUN echo 'alias python="/user/bin/python3/12"' >> /home/vscode/.bashrc
+RUN echo 'alias python="/user/bin/python3.12"' >> /home/vscode/.bashrc
 
 WORKDIR /workspaces/project
