@@ -1,0 +1,1 @@
+find . -path "./.venv" -prune -o -path "./.git" -prune -o -print
