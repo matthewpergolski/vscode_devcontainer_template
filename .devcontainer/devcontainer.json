@@ -39,7 +39,9 @@
           "esbenp.prettier-vscode",
           "mechatroner.rainbow-csv",
           "eamodio.gitlens",
-          "ms-azuretools.vscode-docker"
+          "ms-azuretools.vscode-docker", 
+          "saoudrizwan.claude-dev",
+          "openai.chatgpt"
         ],
         "settings": {
           "python.defaultInterpreterPath": "/workspaces/vscode/.venv/bin/python"
